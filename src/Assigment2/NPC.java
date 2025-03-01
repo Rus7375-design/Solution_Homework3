@@ -1,3 +1,5 @@
+package Assigment2;
+
 public class NPC implements CloneableGameEntity {
     private String name;
     private String description;
@@ -16,6 +18,6 @@ public class NPC implements CloneableGameEntity {
 
     @Override
     public String toString() {
-        return "NPC: " + name + " (" + description + "), Здоровье: " + health;
+        return "Assigment2.NPC: " + name + " (" + description + "), Здоровье: " + health;
     }
 }

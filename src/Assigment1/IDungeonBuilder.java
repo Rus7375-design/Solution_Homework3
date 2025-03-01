@@ -1,9 +1,6 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("=== Демонстрация Builder ===");
-        MUDBuilderDemo.main(args);
-
-        System.out.println("\n=== Демонстрация Prototype ===");
-        MUDPrototypeDemo.main(args);
-    }
+public interface IDungeonBuilder {
+    IDungeonBuilder setDungeonName(String name);
+    IDungeonBuilder addRoom(Room room);
+    IDungeonBuilder addNPC(NPC npc);
+    Dungeon build();
 }

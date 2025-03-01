@@ -1,3 +1,5 @@
+package Assigment2;
+
 public class MUDPrototypeDemo {
     public static void main(String[] args) {
         // Создаем оригинальные объекты

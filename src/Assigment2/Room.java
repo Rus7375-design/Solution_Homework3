@@ -1,3 +1,5 @@
+package Assigment2;
+
 public class Room implements CloneableGameEntity {
     private String name;
     private String description;
